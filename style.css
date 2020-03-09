@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #403A3E; 
+    background: -webkit-radial-gradient( rgb(187, 102, 116), rgb(87, 79, 84)); 
+    background: radial-gradient( rgb(190, 100, 115), #403A3E);     
+    min-height: 100vh;
+    font-family: PopRegular;
+    src: url('./fonts/Poppins-Regular.ttf');
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.comp, .notcomp {
+    color: #000000;
+    display: none;
+}
+
+.txtb {
+    width:100%;
+    border: none;
+    border-bottom: 1px solid #000;
+    background: none;
+    padding: 10px;
+    outline: none;
+    font-size: 18px;
+    color: #faebeb;
+}
+
+h3 {
+    margin: 10px 0;
+}
+
+.task{
+    width: 100%;
+    background: rgb(255, 255, 255, 0.5);
+    padding: 18px;
+    margin: 6px 0;
+    overflow: hidden;
+    color: #000;
+    font-size: 18px;
+}
+
+.task i {
+    float: right;
+    margin-left: 20px;
+    cursor: pointer;
+    columns: #000000;
+}
+
+.comp .task {
+    background: rgb(255, 255, 255, 0.5);
+    font-size: 18px;
+    color: #000;
+}
+
